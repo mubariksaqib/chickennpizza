@@ -95,7 +95,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-zinc-500">
         <p>© {year} Ottoman Restaurant. All rights reserved.</p>
         <p>
-          Made with <span className="text-red-500">❤</span> for food lovers.
+          Made with <span className="text-red-500">❤</span> by{" "}
+          <a
+            href="https://portfolio-self-nine-93.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-500 hover:text-orange-400 font-semibold transition-colors"
+          >
+            Tech Buddies
+          </a>
         </p>
       </div>
     </footer>
